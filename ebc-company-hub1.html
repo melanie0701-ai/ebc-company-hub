@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Company — EBC Financial Group | Regulation, Partnerships, Awards & Newsroom</title>
+<meta name="description" content="EBC Financial Group company hub: FCA/ASIC/CIMA regulation with verifiable reference numbers, client funds at Barclays, FC Barcelona and University of Oxford partnerships, World Finance awards, and the latest newsroom updates.">
+<link rel="canonical" href="https://www.ebc.com/company/">
+
+<!-- GEO/AEO: machine-readable organization + credibility signals -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "EBC Financial Group",
+  "url": "https://www.ebc.com/",
+  "logo": "https://www.ebc.com/logo.png",
+  "foundingDate": "2020",
+  "description": "Globally regulated forex and CFD broker. FCA (UK), ASIC (Australia) and CIMA (Cayman) regulated, with client funds held at Barclays.",
+  "address": [
+    {"@type": "PostalAddress", "addressLocality": "London", "addressCountry": "GB"},
+    {"@type": "PostalAddress", "addressLocality": "Sydney", "addressCountry": "AU"},
+    {"@type": "PostalAddress", "addressLocality": "Tokyo", "addressCountry": "JP"}
+  ],
+  "hasCredential": [
+    {"@type": "EducationalOccupationalCredential", "credentialCategory": "Regulatory licence", "recognizedBy": {"@type": "Organization", "name": "Financial Conduct Authority (UK)"}, "identifier": "927552"},
+    {"@type": "EducationalOccupationalCredential", "credentialCategory": "Regulatory licence", "recognizedBy": {"@type": "Organization", "name": "ASIC (Australia)"}, "identifier": "500991"},
+    {"@type": "EducationalOccupationalCredential", "credentialCategory": "Regulatory licence", "recognizedBy": {"@type": "Organization", "name": "CIMA (Cayman Islands)"}, "identifier": "2038223"}
+  ],
+  "memberOf": [
+    {"@type": "Organization", "name": "FC Barcelona — Official Partner"},
+    {"@type": "Organization", "name": "University of Oxford, Department of Economics — Research Partner"},
+    {"@type": "Organization", "name": "UN Foundation — United to Beat Malaria"}
+  ],
+  "award": [
+    "World Finance — Best FX Trading Platform & Best Trading Execution (2023)",
+    "World Finance — Most Trusted FX Broker & Best CFD Broker (2024)",
+    "World Finance — Most Trusted Broker & Best Trading Platform (2025)",
+    "World Finance — recognition (2026)"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.ebc.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Company", "item": "https://www.ebc.com/company/"}
+  ]
+}
+</script>
+
+<style>
+  :root{
+    /* ---- Official EBC brand palette (Brand Guidelines v1.0) ---- */
+    --burgundy:#5D2333;    /* PRIMARY brand identifier */
+    --burgundy-deep:#421825;
+    --ink:#232222;         /* brand near-black, for body text */
+    --ink-soft:#6b5a5f;    /* muted burgundy-grey */
+    --paper:#F9F6F2;       /* warm off-white neutral */
+    --limestone:#E6DDCF;   /* primary neutral */
+    --card:#ffffff;
+    --line:#E2D9CA;        /* limestone-derived hairline */
+    --accent:#5D2333;      /* burgundy carries primary actions */
+    --accent-deep:#421825;
+    --gold:#9F734C;        /* Chamoisee / brass — award & credential accent */
+    --coral:#FF4B4E;       /* Coral — vitality accent */
+    --crimson:#A52933;     /* brand red — trust-anchor / urgent accent */
+    --radius:4px;
+    --maxw:1180px;
+    --serif:"Georgia","Times New Roman",serif;
+    --sans:"Helvetica Neue",Arial,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased;}
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+
+  /* ---------- Utility / verification bar ---------- */
+  .verifybar{background:var(--burgundy-deep);color:#D9CCBE;font-size:12.5px;letter-spacing:.02em;}
+  .verifybar .wrap{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;padding:8px 24px;}
+  .verifybar strong{color:#fff;font-weight:600;}
+  .verifybar a{color:var(--limestone);border-bottom:1px solid transparent;}
+  .verifybar a:hover{border-color:var(--limestone);}
+
+  /* ---------- Primary nav ---------- */
+  header.nav{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50;}
+  .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:66px;}
+  .brand{display:flex;align-items:center;gap:14px;}
+  .brand .mark{font-family:var(--serif);font-weight:700;font-size:21px;letter-spacing:.04em;color:var(--burgundy);}
+  /* EBC × FC Barcelona co-brand lock-up */
+  .cobrand{display:flex;align-items:center;gap:10px;border-left:1px solid var(--line);padding-left:14px;}
+  .cobrand .x{font-size:12px;color:var(--ink-soft);}
+  .cobrand .fcb{display:flex;align-items:center;gap:7px;}
+  .cobrand .crest{width:24px;height:28px;flex:none;}
+  .cobrand .fcb-txt{line-height:1.1;}
+  .cobrand .fcb-txt b{display:block;font-size:11.5px;font-weight:700;color:var(--ink);letter-spacing:.01em;}
+  .cobrand .fcb-txt span{display:block;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);}
+  @media (max-width:760px){ .cobrand .fcb-txt{display:none;} }
+  nav.primary{display:flex;align-items:center;gap:2px;height:100%;}
+  nav.primary > a, nav.primary > .has-mega > button{
+    font-size:14.5px;font-weight:500;color:var(--ink);background:none;border:0;cursor:pointer;
+    padding:0 16px;height:66px;display:flex;align-items:center;gap:6px;font-family:var(--sans);
+    border-bottom:3px solid transparent;
+  }
+  nav.primary > a:hover, nav.primary > .has-mega:hover > button, nav.primary > .has-mega.open > button{
+    color:var(--accent-deep);border-bottom-color:var(--accent);
+  }
+  .has-mega{position:relative;height:66px;display:flex;align-items:center;}
+  .caret{font-size:10px;transition:transform .18s;}
+  .has-mega:hover .caret{transform:rotate(180deg);}
+  .cta{margin-left:10px;background:var(--accent);color:#fff !important;padding:10px 18px;border-radius:var(--radius);font-size:14px;font-weight:600;}
+  .cta:hover{background:var(--accent-deep);}
+
+  /* ---------- Mega menu ---------- */
+  .mega{
+    position:absolute;top:66px;left:50%;transform:translateX(-58%);
+    width:min(880px,92vw);background:var(--card);border:1px solid var(--line);
+    border-top:3px solid var(--accent);box-shadow:0 24px 60px -24px rgba(10,31,46,.4);
+    padding:26px 28px 22px;display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:26px;
+    opacity:0;visibility:hidden;transform:translateX(-58%) translateY(6px);transition:.16s;border-radius:0 0 var(--radius) var(--radius);
+  }
+  .has-mega:hover .mega, .has-mega.open .mega{opacity:1;visibility:visible;transform:translateX(-58%) translateY(0);}
+  .mega h4{margin:0 0 12px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-deep);border-bottom:1px solid var(--line);padding-bottom:8px;}
+  .mega ul{list-style:none;margin:0;padding:0;}
+  .mega li{margin:0 0 11px;}
+  .mega li a{display:block;font-size:14px;font-weight:600;color:var(--ink);}
+  .mega li a:hover{color:var(--accent);}
+  .mega li span{display:block;font-size:12px;color:var(--ink-soft);font-weight:400;margin-top:1px;}
+  .mega .feature{background:var(--paper);border-radius:var(--radius);padding:16px;border:1px solid var(--line);}
+  .mega .feature .tag{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--crimson);font-weight:700;}
+  .mega .feature h5{font-family:var(--serif);font-size:16px;margin:8px 0 6px;line-height:1.3;}
+  .mega .feature p{font-size:12.5px;color:var(--ink-soft);margin:0 0 10px;}
+  .mega .feature a.more{font-size:12.5px;font-weight:700;color:var(--accent);}
+  /* Operational sub-item, visually a tier below the brand links */
+  .megaops{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line);}
+  .megaops a{display:block;font-size:13px;font-weight:600;color:var(--ink-soft);}
+  .megaops a:hover{color:var(--accent);}
+  .megaops a span{display:block;font-size:11.5px;color:var(--ink-soft);font-weight:400;margin-top:1px;opacity:.85;}
+
+  .menutoggle{display:none;background:none;border:0;font-size:24px;cursor:pointer;color:var(--ink);}
+
+  /* ---------- Breadcrumb ---------- */
+  .crumb{font-size:12.5px;color:var(--ink-soft);padding:14px 0 0;}
+  .crumb a:hover{color:var(--accent);}
+  .crumb b{color:var(--ink);font-weight:600;}
+
+  /* ---------- Hero ---------- */
+  .hero{padding:40px 0 36px;border-bottom:1px solid var(--line);}
+  .herogrid{display:grid;grid-template-columns:1.55fr 1fr;gap:48px;align-items:center;}
+  .hero .eyebrow{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent-deep);font-weight:700;}
+  .hero h1{font-family:var(--serif);font-weight:700;font-size:clamp(30px,4.4vw,50px);line-height:1.08;margin:14px 0 14px;max-width:17ch;letter-spacing:-.01em;}
+  .hero p.lede{font-size:16.5px;color:var(--ink-soft);max-width:54ch;margin:0;}
+  .hero .quicklinks{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px;}
+  .hero .quicklinks a{font-size:13px;font-weight:600;border:1px solid var(--line);background:var(--card);padding:8px 14px;border-radius:40px;color:var(--ink);}
+  .hero .quicklinks a:hover{border-color:var(--accent);color:var(--accent);}
+  .herostats{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;}
+  .herostats .stat{background:var(--card);padding:20px 18px;}
+  .herostats .n{display:block;font-family:var(--serif);font-size:34px;font-weight:700;color:var(--accent-deep);line-height:1;}
+  .herostats .n i{font-style:normal;font-size:17px;color:var(--gold);margin-left:1px;}
+  .herostats .l{display:block;font-size:12px;color:var(--ink-soft);margin-top:8px;line-height:1.4;}
+  @media (max-width:920px){
+    .herogrid{grid-template-columns:1fr;gap:30px;}
+  }
+
+  /* ---------- Trust anchors strip ---------- */
+  .anchors{background:var(--burgundy);color:#EDE6DA;padding:30px 0;}
+  .anchors .grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0;}
+  .anchors .a{padding:0 22px;border-left:1px solid rgba(255,255,255,.12);}
+  .anchors .a:first-child{border-left:0;padding-left:0;}
+  .anchors .k{font-family:var(--serif);font-size:17px;color:#fff;margin:0 0 4px;line-height:1.2;}
+  .anchors .v{font-size:12.5px;color:#C9B8A8;margin:0;}
+  .anchors .v a{color:var(--limestone);border-bottom:1px solid transparent;}
+  .anchors .v a:hover{border-color:var(--limestone);}
+
+  /* ---------- Section scaffolding ---------- */
+  section.block{padding:46px 0;border-bottom:1px solid var(--line);}
+  .block h2{font-family:var(--serif);font-size:26px;margin:0 0 4px;}
+  .block .sec-sub{font-size:14px;color:var(--ink-soft);margin:0 0 26px;}
+  .seghead{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+  .seghead a.all{font-size:13px;font-weight:700;color:var(--accent);white-space:nowrap;}
+
+  /* ---------- News grid ---------- */
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  article.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;display:flex;flex-direction:column;}
+  article.card .meta{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 10px;}
+  article.card .meta .cat{color:var(--accent-deep);font-weight:700;}
+  article.card h3{font-family:var(--serif);font-size:18px;line-height:1.28;margin:0 0 10px;}
+  article.card p{font-size:13.5px;color:var(--ink-soft);margin:0 0 14px;flex:1;}
+  article.card a.read{font-size:13px;font-weight:700;color:var(--accent);}
+
+  /* ---------- Two-col: partnerships + awards ---------- */
+  .twocol{display:grid;grid-template-columns:1fr 1fr;gap:30px;}
+  .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;}
+  .panel h3{font-family:var(--serif);font-size:20px;margin:0 0 16px;}
+  .rowlist{list-style:none;margin:0;padding:0;}
+  .rowlist li{padding:12px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:14px;}
+  .rowlist li:first-child{border-top:0;padding-top:0;}
+  .rowlist .lab{font-weight:600;font-size:14px;}
+  .rowlist .det{font-size:12.5px;color:var(--ink-soft);text-align:right;}
+  .award .yr{color:var(--gold);font-weight:700;}
+
+  /* ---------- Competition track record (static proof) ---------- */
+  .proofgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;}
+  .proof{background:var(--card);padding:24px 20px;}
+  .proof .n{display:block;font-family:var(--serif);font-size:30px;font-weight:700;color:var(--crimson);line-height:1;}
+  .proof .n i{font-style:normal;font-size:18px;}
+  .proof .l{display:block;font-size:12px;color:var(--ink-soft);margin-top:9px;line-height:1.45;}
+  .proofnote{font-size:11.5px;color:var(--ink-soft);margin:16px 0 0;font-style:italic;}
+  @media (max-width:920px){ .proofgrid{grid-template-columns:1fr 1fr;} }
+  @media (max-width:680px){ .proofgrid{grid-template-columns:1fr;} }
+
+  /* ---------- Press / media contact ---------- */
+  .press{display:grid;grid-template-columns:1.3fr 1fr;gap:30px;align-items:start;}
+  .press .contact{background:var(--burgundy);color:#EDE6DA;border-radius:var(--radius);padding:26px;}
+  .press .contact h3{color:#fff;font-family:var(--serif);margin:0 0 8px;font-size:19px;}
+  .press .contact p{font-size:13.5px;color:#C9B8A8;margin:0 0 14px;}
+  .press .contact a.mail{display:inline-block;color:var(--limestone);font-weight:700;font-size:15px;}
+  .press .kitbox{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px;}
+  .press .kitbox h3{font-family:var(--serif);margin:0 0 8px;font-size:19px;}
+  .press .kitbox p{font-size:13.5px;color:var(--ink-soft);margin:0 0 16px;}
+  .press .kitbox a.dl{display:inline-block;background:var(--accent);color:#fff;font-weight:600;font-size:14px;padding:11px 18px;border-radius:var(--radius);}
+  .press .kitbox a.dl:hover{background:var(--accent-deep);}
+
+  .coverage{list-style:none;margin:18px 0 0;padding:0;column-count:2;column-gap:30px;}
+  .coverage li{font-size:13px;color:var(--ink-soft);padding:7px 0;break-inside:avoid;}
+  .coverage li b{color:var(--ink);}
+
+  /* ---------- Trader notices (quiet utility band, weight-isolated) ---------- */
+  .notices{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .noticeinner{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 24px;flex-wrap:wrap;}
+  .noticetxt{display:flex;align-items:center;gap:14px;}
+  .ntag{flex:none;font-size:10px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--ink-soft);border:1px solid var(--line);border-radius:40px;padding:4px 10px;background:var(--card);}
+  .noticetxt p{margin:0;font-size:13px;color:var(--ink-soft);}
+  .noticetxt p b{color:var(--ink);font-weight:600;}
+  .nlink{flex:none;font-size:13px;font-weight:700;color:var(--ink);border-bottom:1px solid var(--line);padding-bottom:2px;}
+  .nlink:hover{color:var(--accent);border-color:var(--accent);}
+  @media (max-width:680px){ .noticetxt{flex-direction:column;align-items:flex-start;gap:8px;} }
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--burgundy-deep);color:#C9B8A8;padding:40px 0 30px;font-size:13px;}
+  footer .cols{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;margin-bottom:26px;}
+  footer h5{color:#fff;font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin:0 0 12px;}
+  footer ul{list-style:none;margin:0;padding:0;}
+  footer li{margin:0 0 8px;}
+  footer a:hover{color:var(--limestone);}
+  footer .legal{border-top:1px solid rgba(255,255,255,.12);padding-top:18px;font-size:11.5px;line-height:1.6;color:#9C8A7C;}
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:920px){
+    .anchors .grid{grid-template-columns:1fr 1fr;gap:18px;}
+    .anchors .a{border-left:0;padding:0;}
+    .cards{grid-template-columns:1fr 1fr;}
+    .twocol,.press{grid-template-columns:1fr;}
+    .mega{grid-template-columns:1fr;width:min(420px,92vw);}
+  }
+  @media (max-width:680px){
+    nav.primary{display:none;}
+    .menutoggle{display:block;}
+    .cards{grid-template-columns:1fr;}
+    .anchors .grid{grid-template-columns:1fr;}
+    .coverage{column-count:1;}
+    .verifybar .wrap{font-size:11.5px;}
+  }
+</style>
+</head>
+<body>
+
+<!-- VERIFICATION / TRUST UTILITY BAR -->
+<div class="verifybar">
+  <div class="wrap">
+    <span><strong>Regulated:</strong> FCA #927552 · ASIC #500991 · CIMA #2038223</span>
+    <span>Client funds at Barclays</span>
+    <a href="#">Verify our licences →</a>
+  </div>
+</div>
+
+<!-- PRIMARY NAV -->
+<header class="nav">
+  <div class="wrap">
+    <div class="brand">
+      <span class="mark">EBC</span>
+      <div class="cobrand" title="Official Partner of FC Barcelona">
+        <span class="x">×</span>
+        <span class="fcb">
+          <!-- FC Barcelona crest (simplified, original geometry — not the trademarked artwork) -->
+          <svg class="crest" viewBox="0 0 60 70" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 4 H56 V40 Q56 60 30 68 Q4 60 4 40 Z" fill="#fff" stroke="#5D2333" stroke-width="2.5"/>
+            <path d="M30 4 V68" stroke="#5D2333" stroke-width="2"/>
+            <rect x="6" y="6" width="22" height="14" fill="#A52933"/>
+            <g stroke="#5D2333" stroke-width="3">
+              <line x1="36" y1="6" x2="36" y2="20"/><line x1="44" y1="6" x2="44" y2="20"/>
+              <line x1="52" y1="6" x2="52" y2="20"/>
+            </g>
+            <rect x="6" y="24" width="48" height="9" fill="#9F734C"/>
+            <circle cx="30" cy="50" r="9" fill="none" stroke="#5D2333" stroke-width="2"/>
+          </svg>
+          <span class="fcb-txt">
+            <b>FC Barcelona</b>
+            <span>Official Partner</span>
+          </span>
+        </span>
+      </div>
+    </div>
+
+    <nav class="primary" aria-label="Primary">
+      <a href="#">Trading</a>
+      <a href="#">Academy</a>
+
+      <!-- "Company" is the SEO/GEO-friendly top-level parent.
+           The authority hub (news, regulation, partnerships, awards) lives inside it. -->
+      <div class="has-mega" id="companyMega">
+        <button aria-haspopup="true" aria-expanded="false" onclick="toggleMega(event)">Company <span class="caret">▾</span></button>
+        <div class="mega" role="menu" aria-label="Company">
+          <div>
+            <h4>Who we are</h4>
+            <ul>
+              <li><a href="#">About EBC<span>Story, leadership, global offices</span></a></li>
+              <li><a href="#">Why EBC<span>Execution, liquidity, fund safety</span></a></li>
+              <li><a href="#">Regulation &amp; trust<span>FCA · ASIC · CIMA — verifiable</span></a></li>
+              <li><a href="#">Sustainability &amp; impact<span>UN Foundation, CSR, ESG</span></a></li>
+            </ul>
+            <!-- Operational, weight-isolated: kept out of the brand-authority groups.
+                 rel="nofollow"; target is noindex,follow and excluded from sitemap. -->
+            <div class="megaops">
+              <a href="/announcements/" rel="nofollow">Announcements<span>Funding, hours &amp; service notices</span></a>
+            </div>
+          </div>
+          <div>
+            <h4>Authority &amp; proof</h4>
+            <ul>
+              <li><a href="#">Newsroom<span>Latest company &amp; market news</span></a></li>
+              <li><a href="#">Partnerships<span>FC Barcelona · Oxford</span></a></li>
+              <li><a href="#">Awards &amp; recognition<span>World Finance, 2023–2025</span></a></li>
+              <li><a href="#">Press kit &amp; media<span>Boilerplate, bios, assets</span></a></li>
+            </ul>
+          </div>
+          <div class="feature">
+            <span class="tag">Featured</span>
+            <h5>EBC × Oxford — research partnership renewed for a third year</h5>
+            <p>Supporting the "What Economists Really Do" series at the University of Oxford.</p>
+            <a class="more" href="#">Read announcement →</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="#">Activities</a>
+      <a href="#">Copy Trading</a>
+      <a href="#" class="cta">Open account</a>
+    </nav>
+
+    <button class="menutoggle" aria-label="Menu" onclick="document.querySelector('nav.primary').style.display='flex'">☰</button>
+  </div>
+</header>
+
+<!-- BREADCRUMB (matches BreadcrumbList schema above) -->
+<div class="wrap">
+  <div class="crumb"><a href="#">Home</a> &nbsp;›&nbsp; <b>Company</b></div>
+</div>
+
+<!-- HERO: Company first-screen — heritage, regulation, partnership, proof -->
+<section class="hero">
+  <div class="wrap herogrid">
+    <div class="herocopy">
+      <p class="eyebrow">EBC Financial Group · The Company</p>
+      <h1>From the City of London to the world's biggest stage.</h1>
+      <p class="lede">A multi-regulated brokerage built on institutional discipline — funds safeguarded at Barclays, execution measured in milliseconds, and a partnership with FC Barcelona that puts our name beside one of sport's most trusted institutions.</p>
+      <div class="quicklinks">
+        <a href="#news">Newsroom</a>
+        <a href="#trust">Regulation &amp; trust</a>
+        <a href="#partnerships">Partnerships</a>
+        <a href="#awards">Awards</a>
+      </div>
+    </div>
+    <aside class="herostats" aria-label="EBC at a glance">
+      <div class="stat"><span class="n">4</span><span class="l">regulatory licences<br>FCA · ASIC · CIMA · FSCA</span></div>
+      <div class="stat"><span class="n">20<i>ms</i></span><span class="l">average order<br>execution speed</span></div>
+      <div class="stat"><span class="n">100<i>+</i></span><span class="l">country markets<br>served worldwide</span></div>
+      <div class="stat"><span class="n">4<i>yrs</i></span><span class="l">World Finance<br>recognition, 2023–26</span></div>
+    </aside>
+  </div>
+</section>
+
+<!-- TRUST ANCHORS -->
+<div class="anchors" id="trust">
+  <div class="wrap">
+    <div class="grid">
+      <div class="a"><p class="k">FCA regulated</p><p class="v">Ref. 927552 — <a href="#">verify at fca.org.uk</a></p></div>
+      <div class="a"><p class="k">Funds at Barclays</p><p class="v">Segregated corporate account</p></div>
+      <div class="a"><p class="k">FC Barcelona partner</p><p class="v">APAC · LATAM · MENA · Africa</p></div>
+      <div class="a"><p class="k">Oxford research</p><p class="v">"What Economists Really Do" — 3rd yr</p></div>
+      <div class="a"><p class="k">UN — Beat Malaria</p><p class="v">Renewed 2026 · Africa programme</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- NEWSROOM -->
+<section class="block" id="news">
+  <div class="wrap">
+    <div class="seghead">
+      <div>
+        <h2>Newsroom</h2>
+        <p class="sec-sub">Company announcements, market commentary, and partnership news.</p>
+      </div>
+      <a class="all" href="#">All news &amp; analysis →</a>
+    </div>
+    <div class="cards">
+      <article class="card">
+        <p class="meta"><span class="cat">Market analysis</span> · 12 Jun 2026 · EBC macro team</p>
+        <h3>Precious metals take centre stage at the Finance Magnates Africa Summit, Cape Town</h3>
+        <p>EBC's macro team on African commodity markets, gold as a strategic EM hedge, and the South African institutional FX outlook.</p>
+        <a class="read" href="#">Read →</a>
+      </article>
+      <article class="card">
+        <p class="meta"><span class="cat">CSR &amp; ESG</span> · 13 May 2026</p>
+        <h3>Three more years: EBC renews its United to Beat Malaria commitment for 2026</h3>
+        <p>The UN Foundation partnership extends across Kenya, Nigeria, and five high-risk African nations.</p>
+        <a class="read" href="#">Read →</a>
+      </article>
+      <article class="card">
+        <p class="meta"><span class="cat">Partnership</span> · 5 May 2026</p>
+        <h3>EBC × Oxford Department of Economics enters its third year</h3>
+        <p>"What Economists Really Do" continues for 2026, reinforcing EBC's institutional commitment to economic education.</p>
+        <a class="read" href="#">Read →</a>
+      </article>
+      <article class="card">
+        <p class="meta"><span class="cat">Competition</span> · 6 Jun 2025</p>
+        <h3>30 days, 11,630% return: the S2 Million Dollar Competition recap from Camp Nou</h3>
+        <p>The first trading-competition ceremony held at FC Barcelona's historic museum.</p>
+        <a class="read" href="#">Read →</a>
+      </article>
+      <article class="card">
+        <p class="meta"><span class="cat">Award</span> · 8 Dec 2025</p>
+        <h3>Best broker for execution — Professional Trader Awards 2025</h3>
+        <p>Recognised for execution quality, speed, and trader-first platform development.</p>
+        <a class="read" href="#">Read →</a>
+      </article>
+      <article class="card">
+        <p class="meta"><span class="cat">Leadership</span> · 21 Apr 2026 · In conversation</p>
+        <h3>"Trust is the only product that compounds": EBC leadership on building a regulated brokerage</h3>
+        <p>EBC's UK CEO on fund safety, execution discipline, and why the City of London still sets the standard.</p>
+        <a class="read" href="#">Read the interview →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNERSHIPS + AWARDS -->
+<section class="block">
+  <div class="wrap">
+    <div class="twocol">
+      <div class="panel" id="partnerships">
+        <h3>Partnerships</h3>
+        <ul class="rowlist">
+          <li><span class="lab">FC Barcelona</span><span class="det">Official partner — APAC, LATAM,<br>MENA, Africa, Oceania</span></li>
+          <li><span class="lab">University of Oxford</span><span class="det">Dept. of Economics —<br>research partner, 3rd year</span></li>
+          <li><span class="lab">UN Foundation</span><span class="det">United to Beat Malaria —<br>renewed 2026</span></li>
+        </ul>
+      </div>
+      <div class="panel award" id="awards">
+        <h3>Awards &amp; recognition</h3>
+        <ul class="rowlist">
+          <li><span class="lab">[2026 award title — to confirm]</span><span class="det yr">World Finance 2026</span></li>
+          <li><span class="lab">Most Trusted Broker · Best Trading Platform</span><span class="det yr">World Finance 2025</span></li>
+          <li><span class="lab">Most Trusted FX Broker · Best CFD Broker</span><span class="det yr">World Finance 2024</span></li>
+          <li><span class="lab">Best FX Platform · Best Execution</span><span class="det yr">World Finance 2023</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPETITION TRACK RECORD — static, verified history only. Live standings live on the Activities event page. -->
+<section class="block" id="competition">
+  <div class="wrap">
+    <div class="seghead">
+      <div>
+        <h2>A proven competition track record</h2>
+        <p class="sec-sub">Audited results from the EBC Million Dollar Trading Competition. Live standings and entry are on the competition page.</p>
+      </div>
+      <a class="all" href="#">Visit the competition →</a>
+    </div>
+    <div class="proofgrid">
+      <div class="proof"><span class="n">11,630<i>%</i></span><span class="l">Season 2 champion return,<br>over 30 trading days</span></div>
+      <div class="proof"><span class="n">324</span><span class="l">profitable accounts<br>in Season 2</span></div>
+      <div class="proof"><span class="n">3,472<i>%</i></span><span class="l">top-10 average return,<br>Season 2</span></div>
+      <div class="proof"><span class="n">Camp&nbsp;Nou</span><span class="l">first-ever award ceremony at<br>FC Barcelona's museum</span></div>
+    </div>
+    <p class="proofnote">Results are historical, fully settled, and auditable via EBC's copy-trading community signal history. Past performance is not indicative of future results.</p>
+  </div>
+</section>
+
+<!-- PRESS / MEDIA -->
+<section class="block" id="press">
+  <div class="wrap">
+    <div class="seghead"><div><h2>Media &amp; press</h2><p class="sec-sub">For journalists, analysts, and partners.</p></div></div>
+    <div class="press">
+      <div>
+        <div class="kitbox">
+          <h3>Press kit</h3>
+          <p>Brand boilerplate, spokesperson biography, FCA certificates, competition data summary, and the logo pack.</p>
+          <a class="dl" href="#">Download press kit →</a>
+        </div>
+        <ul class="coverage">
+          <li><b>Finance Magnates</b> — Africa Summit 2026, Cape Town</li>
+          <li><b>GlobeNewswire</b> — Beat Malaria partnership renewal</li>
+          <li><b>BusinessWire</b> — 100+ U.S. ETF CFD launch</li>
+          <li><b>BusinessWire</b> — EBC leadership on CCTV with Goldman Sachs</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Media enquiries</h3>
+        <p>Spokesperson to be confirmed (EBC UK Ltd) — market commentary on FX, gold &amp; macro.</p>
+        <a class="mail" href="mailto:pr@ebc.com">pr@ebc.com →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRADER NOTICES — reachable entry only; no announcement content inlined.
+     The /announcements/ hub itself is noindex,follow and excluded from the sitemap,
+     so this operational, high-volume content stays accessible to traders without
+     diluting the Company page's brand authority. Link is rel="nofollow". -->
+<aside class="notices" aria-label="Trader notices">
+  <div class="wrap noticeinner">
+    <div class="noticetxt">
+      <span class="ntag">For clients</span>
+      <p><b>Trader notices &amp; announcements</b> — deposit/withdrawal updates, trading-hours changes, holiday schedules, and platform maintenance.</p>
+    </div>
+    <a class="nlink" href="/announcements/" rel="nofollow">Open announcement centre →</a>
+  </div>
+</aside>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#">About EBC</a></li>
+          <li><a href="#">Why EBC</a></li>
+          <li><a href="#">Regulation &amp; trust</a></li>
+          <li><a href="#">Sustainability &amp; impact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Authority</h5>
+        <ul>
+          <li><a href="#news">Newsroom</a></li>
+          <li><a href="#partnerships">Partnerships</a></li>
+          <li><a href="#awards">Awards</a></li>
+          <li><a href="#press">Press kit</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Trade</h5>
+        <ul>
+          <li><a href="#">Trading products</a></li>
+          <li><a href="#">Platforms</a></li>
+          <li><a href="#">Academy</a></li>
+          <li><a href="#">Copy trading</a></li>
+          <li><a href="/announcements/" rel="nofollow">Announcements</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Verify</h5>
+        <ul>
+          <li><a href="#">FCA (UK) #927552</a></li>
+          <li><a href="#">ASIC (AU) #500991</a></li>
+          <li><a href="#">CIMA (KY) #2038223</a></li>
+          <li><a href="#">Official channel verification</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="legal">EBC Financial Group is a co-brand shared by a group of entities. EBC Financial Group (UK) Limited is authorised and regulated by the Financial Conduct Authority (Reference Number: 927552). EBC Financial Group (Cayman) Limited is licensed and regulated by the Cayman Islands Monetary Authority (Number: 2038223). Trading CFDs carries a high risk of losing money rapidly due to leverage. © 2026 EBC Financial Group.</p>
+  </div>
+</footer>
+
+<script>
+  function toggleMega(e){
+    e.preventDefault();
+    var m = document.getElementById('companyMega');
+    var btn = m.querySelector('button');
+    var open = m.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open ? 'true':'false');
+  }
+  // smooth in-page anchors
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click', function(ev){
+      var id = a.getAttribute('href');
+      if(id.length>1){ var t=document.querySelector(id); if(t){ ev.preventDefault(); t.scrollIntoView({behavior:'smooth',block:'start'});}}
+    });
+  });
+</script>
+</body>
+</html>
